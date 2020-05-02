@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\oth]
+@="Open Terminal Here"
+"Icon"="%SystemRoot%\\system32\\cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\oth\command]
+@="cmd.exe /s /k pushd "%V""
